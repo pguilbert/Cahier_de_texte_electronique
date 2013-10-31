@@ -1,83 +1,64 @@
 html, body {
-    height: 100%;
     background-color: #ecf0f1;
 }
 
-/* Barre de navigation */
-.navigationBar
-{
+/********************
+Barre de navigation
+*********************/
+
+header {
     text-align: center;
-
 }
 
-.navigationBar .glyphicon
-{
+header nav .glyphicon {
     font-size: 40px;
+    display: block;
+    margin-bottom: 20px;
 }
 
-.logo_cte
-{
+/* Logo */
+header .brand img {
     width: 140px;
-    height: auto ;
+    height: auto;
 }
 
-
-.navbar-default .navbar-nav>li>a.navigationAdministration
-{
+/* Couleur nav */
+.navbar-default .navbar-nav>li>a.navigationAdministration {
     color: #632266;
 }
 
-.navbar-default .navbar-nav>li>a.navigationSeance
-{
+.navbar-default .navbar-nav>li>a.navigationSeance {
     color: #f0800e;
 }
 
-.navbar-default .navbar-nav>li>a.navigationExercice
-{
+.navbar-default .navbar-nav>li>a.navigationExercice {
     color: #00a5cd;
 }
 
-.navbar-default .navbar-nav>li>a.navigationEvaluation
-{
+.navbar-default .navbar-nav>li>a.navigationEvaluation {
     color: #53af31;
 }
 
-.navbar-default .navbar-nav>li>a.navigationDeconnexion
-{
+.navbar-default .navbar-nav>li>a.navigationDeconnexion {
     color: #df0236;
 }
 
-
-#administration
-{
+#administration {
     display: none;
-    background-color: #ffffff;
-    margin-left: 25%;
     text-align: center;
-    border-radius: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
-.content
-{
+#notification {
     width: 100%;
-    max-height: 100%;
+    padding: 0 50px 0 50px;
+}
+
+#content {
     padding: 0px 50px 0 0;
-    position: relative;
 }
 
-.alert
-{
-    margin-left: 20px;
-}
-
-.resetMargin
-{
-    margin: 0px;
-}
-
-.columnRight
-{
+.columnRight {
     padding: 2%;
     text-align: justify;
     background-color: white;
