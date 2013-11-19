@@ -1,0 +1,4 @@
+cte_accueil:
+    resource: "@CTEAccueilBundle/Resources/config/routing.yml"
+    prefix:   /
+

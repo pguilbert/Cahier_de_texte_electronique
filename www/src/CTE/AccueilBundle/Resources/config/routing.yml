@@ -1,0 +1,7 @@
+cte_accueil_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: CTEAccueilBundle:Default:index }
+
+Accueil:
+    pattern: /accueil
+    defaults: { _controller: CTEAccueilBundle:CTE:index }

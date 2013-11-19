@@ -1,0 +1,4 @@
+function afficherAdministration()
+{
+    $('#administration').toggle();
+}

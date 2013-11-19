@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xml:lang="fr_FR" lang="fr_FR">
 <head>
-    <title>Accueil</title>
+    <title>Acceuil</title>
 
     <meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
